@@ -1,0 +1,40 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: Poppins, sans-serif;
+    background-color: #fff;
+}
+.navbar
+{
+    background: linear-gradient(rgba(173, 221, 230, 0.985), rgba(1, 251, 251, 0.326));
+}
+form .modal-content
+{
+    background: transparent;
+}
+
+form .modal-body input
+{
+    height: 50px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255,0.4);
+}
+
+#spinner
+{
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    height: 80px;
+    margin: auto;
+    z-index: 1111;
+}
